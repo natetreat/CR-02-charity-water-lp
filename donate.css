@@ -1,0 +1,109 @@
+/* Global Styles - These styles affect the whole page */
+body {
+  margin: 0; /* Removes default margin around the page */
+  font-family: 'Open Sans', sans-serif; /* Sets the font for the page */
+  background-color: #f4f1ef; /* Light background color */
+  /* Add a background image to the whole page */
+  background-image: url('walking for water.jpg'); /* Sets the background image */
+  background-size: cover; /* Makes the image cover the whole page */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image on the page */
+}
+
+/* Header Styles - Styles for the top bar at the top of the page */
+.top-bar {
+  background-color: #ffffff; /* White background for the header */
+  padding: 1rem 2rem; /* Space inside the header */
+  border-bottom: 1px solid #ddd; /* Thin line at the bottom of the header */
+}
+
+/* Logo Image Styles - Styles for the logo image in the header */
+.logo {
+  max-height: 40px; /* Makes sure the logo isn't too tall */
+  width: auto; /* Keeps the logo's width proportional */
+  width: 280px; /* Sets a maximum width for the logo */
+}
+
+/* Logo Link Styles - Removes underline from the logo link */
+.logo-link {
+  text-decoration: none;
+}
+
+/* Form Wrapper - Centers the form on the page */
+.donation-form-wrapper {
+  display: flex; /* Uses flex to center the form */
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  padding: 4rem 2rem; /* Adds space around the form */
+}
+
+/* Form Container - Styles for the white box that holds the form */
+.form-container {
+  background-color: rgba(255, 255, 255, 0.76); /* White background with a little transparency */
+  padding: 2.5rem; /* Space inside the form box */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Soft shadow around the form */
+  max-width: 500px; /* Maximum width of the form */
+  width: 100%; /* Makes the form responsive */
+}
+
+/* Form Title Styles - Styles for the main heading inside the form */
+.form-container h1 {
+  font-family: 'Playfair Display', serif; /* Fancy font for the heading */
+  font-size: 2rem; /* Large text size */
+  margin-bottom: 0.5rem; /* Space below the heading */
+  color: #333; /* Dark text color */
+}
+
+/* Form Description Styles - Styles for the paragraph under the heading */
+.form-container p {
+  margin-bottom: 1.5rem; /* Space below the paragraph */
+  font-size: 1rem; /* Normal text size */
+  color: #555; /* Medium gray text */
+}
+
+/* Label Styles - Styles for all form labels */
+label {
+  display: block; /* Each label is on its own line */
+  margin-bottom: 0.3rem; /* Small space below the label */
+  font-weight: bold; /* Bold text for labels */
+  margin-top: 1rem; /* Space above each label */
+}
+
+/* Input Styles - Styles for all input fields */
+input {
+  width: 100%; /* Input takes up the full width of the form */
+  padding: 0.75rem; /* Space inside the input */
+  margin-top: 0.2rem; /* Small space above the input */
+  border-radius: 6px; /* Rounded corners */
+  border: 1px solid #ccc; /* Light gray border */
+  font-size: 1rem; /* Normal text size */
+}
+
+/* Button Styles - Styles for the submit button */
+button {
+  margin-top: 2rem; /* Space above the button */
+  width: 100%; /* Button takes up the full width of the form */
+  background-color: #fcd34d; /* Yellow background */
+  color: #000; /* Black text */
+  border: none; /* No border */
+  padding: 0.9rem; /* Space inside the button */
+  font-weight: bold; /* Bold text */
+  font-size: 1rem; /* Normal text size */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Shows a pointer when hovering */
+  transition: background 0.3s; /* Smooth color change on hover */
+}
+
+/* Button Hover Styles - Changes button color when hovered */
+button:hover {
+  background-color: #fbbf24; /* Darker yellow on hover */
+}
+
+/* Success Message Styles - Styles for the message after a successful donation */
+.success-message {
+  margin-top: 1rem; /* Space above the success message */
+  color: green; /* Green text color */
+  font-weight: bold; /* Bold text */
+  display: none; /* Hidden by default, shown when needed */
+}
