@@ -80,3 +80,41 @@ body {
   height: auto;
   border-radius: 7px;
 }
+
+/* Stories section styles */
+.stories-section {
+  background-color: #b35f36; /* Same color as main section */
+  padding: 1.5rem 2rem 3rem 2rem; /* Less space at the top, more at the bottom */
+  text-align: center; /* Center the text */
+  /* If you have margin-top here, you can reduce or remove it */
+}
+
+.stories-section h2 {
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 2rem;
+}
+
+.stories-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.story-card {
+  max-width: 300px;
+  text-align: left;
+}
+
+.story-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.story-card p {
+  font-size: 1rem;
+  color: #fffbfb;
+}
+
